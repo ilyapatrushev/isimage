@@ -5,7 +5,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(name					= 'isimage'
-	, version				= '0.1.1'
+	, version				= '0.1.2'
 	, packages				= find_packages()
 	, entry_points			= {'console_scripts':['analyse_image = isimage.analyse_image:main'
 												, 'select_images = isimage.select_images:main'
